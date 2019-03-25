@@ -1,0 +1,41 @@
+<!-- Crud_Html - 2019/1; -->
+<!-- Luana Gabriele de Sousa Costa; -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Luana's CRUD</title>
+  <link rel="stylesheet" type="text/css" href="crud.css">
+
+</head>
+<body>
+
+<form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+  <input type="text" id="add-name" placeholder="Novo Nome">
+  <input type="submit" value="Adicionar">
+</form>
+
+<div id="spoiler" role="aria-hidden">
+  <form action="javascript:void(0);" method="POST" id="saveEdit">
+    <input type="text" id="edit-name">
+    <input type="submit" value="Editar" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+  </form>
+</div>
+
+<p id="counter"></p>
+
+<table>
+  <tr>
+    <th>Nomes</th>
+  </tr>
+    <tbody id="nomes">
+    </tbody>
+</table>
+
+<script
+  type ="text/javascript"
+  src ="crud.js">
+</script>
+</body>
+</html>

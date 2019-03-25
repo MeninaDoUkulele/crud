@@ -1,0 +1,16 @@
+/*
+  Crud_CSS - 2019/1;
+  Luana Gabriele de Sousa Costa;
+*/
+
+html {
+  font-size: 15px;
+  font-family: cursive;
+
+  background-image: url("style.png");
+  background-color: #FFF0F5;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+  background-position: bottom center;
+}
